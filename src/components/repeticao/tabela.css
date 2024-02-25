@@ -1,0 +1,11 @@
+.tabela th{
+background: aqua;
+}
+
+.tabela .par{
+    background: rgb(199, 204, 204);
+    }
+
+.tabela table{
+    width: 100%;
+    }
