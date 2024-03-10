@@ -13,6 +13,8 @@ import Usuario from './components/condicional/usuario'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/input'
+import Contador from './components/Contador/contador'
+
 
 import React from "react"
 
@@ -22,6 +24,11 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+
+
+      <Card titulo='#12 Contador' color="#424242">
+          <Contador numeroInicial={1}></Contador>
+        </Card>
 
         <Card titulo='#11 componente controlado (Input)' color="#6A5ACD">
           <Input></Input>
