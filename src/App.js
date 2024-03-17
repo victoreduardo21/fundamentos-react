@@ -27,7 +27,7 @@ function App() {
 
 
       <Card titulo='#12 Contador' color="#424242">
-          <Contador numeroInicial={1}></Contador>
+          <Contador numeroInicial={0}></Contador>
         </Card>
 
         <Card titulo='#11 componente controlado (Input)' color="#6A5ACD">
