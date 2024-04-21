@@ -14,6 +14,7 @@ import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/input'
 import Contador from './components/Contador/contador'
+import MegaSena from './components/mega/mega'
 
 
 import React from "react"
@@ -25,6 +26,9 @@ function App() {
 
       <div className="cards">
 
+      <Card titulo='#13 Mega Sena' color="#00BFFF">
+          <MegaSena></MegaSena>
+        </Card>
 
       <Card titulo='#12 Contador' color="#424242">
           <Contador numeroInicial={0}></Contador>
